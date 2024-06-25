@@ -1,0 +1,30 @@
+input {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #b7b7b7 !important;
+    border-bottom: solid 1px #b7b7b7 !important;
+    border-radius: 0 !important;
+    font-size: 35px !important;
+    font-family: Lato-Bold !important;
+    height: 100% !important;
+    width: 70% !important;
+}
+
+
+
+input:active,
+input:focus,
+input:hover,
+input:visited {
+    color: rgb(153, 0, 151) !important;
+    border-bottom: solid 1px rgb(153, 0, 151) !important;
+}
+
+input::placeholder {
+    font-family: Lato-Bold !important;
+}
+
+input {
+    color: rgb(153, 0, 151) !important;
+}
